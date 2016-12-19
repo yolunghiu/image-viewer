@@ -1,0 +1,74 @@
+.u-img-container {
+    width: 570px;
+    position: relative;
+    left: 50%;
+    margin-left: -275px;
+    margin-bottom: 100px;
+}
+
+.img-wrapper {}
+
+.img-wrapper > img {
+    margin-right: 5px;
+    max-height: 90px;
+    max-width: 110px;
+    display: inline-block;
+    cursor: url(http://tb2.bdstatic.com/tb/static-hottopic/img/cur_zin_ae7c4cf.cur), pointer;
+}
+
+.gallery {
+    width: 570px;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f7f7;
+}
+
+.img-big-wrapper {
+    width: 550px;
+}
+
+.img-big-wrapper > img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    cursor: url(http://tb2.bdstatic.com/tb/static-hottopic/img/cur_zout_e47c4ef.cur), pointer;
+    user-select: none;
+}
+
+.u-panel {
+    height: 30px;
+    line-height: 30px;
+}
+
+.u-panel a {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.u-panel a:hover {
+    text-decoration: none;
+}
+
+.to-prev,
+.to-next {
+    width: 150px;
+    height: 100%;
+    position: absolute;
+    z-index: 11111;
+    background: #FFF;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.to-prev {
+    left: 0;
+    cursor: url(http://tb2.bdstatic.com/tb/static-hottopic/img/bigpicprev_1245caf.cur), pointer;
+}
+
+.to-next {
+    right: 0;
+    cursor: url(http://tb2.bdstatic.com/tb/static-hottopic/img/bigpicnext_437c161.cur), pointer;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image View</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/viewer.css">
+</head>
+
+<body>
+    <div class="u-img-container">
+        <!--缩略图-->
+        <div class="img-wrapper">
+            <img src="img/thumbnails/tibet-1.jpg" alt="">
+        </div>
+        <!--/缩略图-->
+        <!--大图-->
+        <div class="gallery hide">
+            <div class="u-panel">
+                <a href="#" class="fl closeBtn">收起</a>
+                <a href="#" class="fr rotateR">向右转</a>
+                <a href="#" class="fr rotateL">向左转</a>
+            </div>
+            <div class="img-big-wrapper">
+                <div class="to-prev"></div>
+                <div class="to-next"></div>
+                <img src="img/tibet-1.jpg" alt="" style="display:none;">
+            </div>
+        </div>
+        <!--/大图-->
+    </div>
+    <div class="u-img-container">
+        <!--缩略图-->
+        <div class="img-wrapper">
+            <img src="img/thumbnails/tibet-1.jpg" alt="" data-l="left">
+            <img src="img/thumbnails/tibet-2.jpg" alt="">
+            <img src="img/thumbnails/tibet-3.jpg" alt="">
+        </div>
+        <!--/缩略图-->
+        <!--大图-->
+        <div class="gallery hide">
+            <div class="u-panel">
+                <a href="#" class="fl closeBtn">收起</a>
+                <a href="#" class="fr rotateR">向右转</a>
+                <a href="#" class="fr rotateL">向左转</a>
+            </div>
+            <div class="img-big-wrapper">
+                <div class="to-prev"></div>
+                <div class="to-next"></div>
+                <img src="img/tibet-1.jpg" alt="" style="display:none;">
+                <img src="img/tibet-2.jpg" alt="" style="display:none;">
+                <img src="img/tibet-3.jpg" alt="" style="display:none;">
+            </div>
+        </div>
+        <!--/大图-->
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/imageViewer.js"></script>
+</body>
+
+</html>
